@@ -19,7 +19,7 @@ COPY app/ ./app/
 COPY src/ ./src/
 COPY models/ ./models/
 COPY reports/ ./reports/
-
+COPY data/simulation/simulation_transactions.csv ./data/simulation/simulation_transactions.csv
 # Create runtime directories
 RUN mkdir -p /app/runtime /app/logs
 

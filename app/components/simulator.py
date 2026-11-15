@@ -12,12 +12,7 @@ from app.api_client import (
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 
-TEST_DATA_PATH = (
-    BASE_DIR
-    / "data"
-    / "processed"
-    / "test_features.csv"
-)
+TEST_DATA_PATH = BASE_DIR / "data" / "simulation" / "simulation_transactions.csv"
 
 
 # ============================================================
